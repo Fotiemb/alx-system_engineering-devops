@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lha
+ls | perl -ne ' print if(/^\d+$/) '
